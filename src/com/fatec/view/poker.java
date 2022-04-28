@@ -64,7 +64,7 @@ public class poker {
                             resultado.setText("Resultado: Flush - 5 cartas do mesmo naipe mas de diferentes valores");
                             break;
                         case "6":
-                            resultado.setText("Resultado: Full House - um par + 3 crtas do mesmo naipe");
+                            resultado.setText("Resultado: Full House - um par mais 3 cartas do mesmo naipe");
                             break;
                         case "7":
                             resultado.setText("Resultado: Quatro cartas de valores iguais dentro de 5 cartas");

@@ -31,20 +31,20 @@ public class poker {
         button1.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseReleased(MouseEvent e) {
-                cartas[0] = comboBox1.getSelectedIndex() + 1;
-                cartas[1] = comboBox6.getSelectedIndex() + 1;
+                cartas[0] = comboBox1.getSelectedIndex();
+                cartas[1] = comboBox6.getSelectedIndex();
 
-                cartas[2] = comboBox2.getSelectedIndex() + 1;
-                cartas[3] = comboBox7.getSelectedIndex() + 1;
+                cartas[2] = comboBox2.getSelectedIndex();
+                cartas[3] = comboBox7.getSelectedIndex();
 
-                cartas[4] = comboBox3.getSelectedIndex() + 1;
-                cartas[5] = comboBox8.getSelectedIndex() + 1;
+                cartas[4] = comboBox3.getSelectedIndex();
+                cartas[5] = comboBox8.getSelectedIndex();
 
-                cartas[6] = comboBox4.getSelectedIndex() + 1;
-                cartas[7] = comboBox9.getSelectedIndex() + 1;
+                cartas[6] = comboBox4.getSelectedIndex();
+                cartas[7] = comboBox9.getSelectedIndex();
 
-                cartas[8] = comboBox5.getSelectedIndex() + 1;
-                cartas[9] = comboBox10.getSelectedIndex() + 1;
+                cartas[8] = comboBox5.getSelectedIndex();
+                cartas[9] = comboBox10.getSelectedIndex();
                 System.out.println(Arrays.toString(cartas));
                 try {
                     switch (classifier.classify(cartas)) {
